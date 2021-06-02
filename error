@@ -1,0 +1,8 @@
+Error 1406: Data too long for column 'city' at row 1
+
+solution
+to display dis error on screen for d user, use.....
+`http.Error(w, err.Error(), http.StatusInternalServerError)`
+keyword : err.Error()
+
+/?id={{.CusID}}

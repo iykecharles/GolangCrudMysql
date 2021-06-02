@@ -1,0 +1,64 @@
+{{template "header1"}}
+   
+<div>
+  <a class="btn btn-primary btn-sm text-center" href="/login">LogOut</a><br>
+</div>
+
+<div class="container mt-3 mb-3">
+  <div class="row text-center">
+    <div class="col-sm ">
+      <h2>Enter relevant data below</h2>
+      <p>Endeavor to fill all the fields</p><br>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-6 offset-3 border border-primary">
+      <form action="/insert/process" method="post" class="ml-3 mr-3 mt-3 mb-3">
+    
+        <div class="mb-3">
+          <label for="customername" class="form-label">CustomerName</label>
+          <input type="text" name="customername" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="gender" class="form-label">Gender</label>
+          <input type="text" name="gender" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" name="email"  aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="zipcode" class="form-label">Zipcode</label>
+          <input type="text" name="zipcode" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="city" class="form-label">City</label>
+          <input type="text" name="city" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="country" class="form-label">Country</label>
+          <input type="text" name="country" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-3 mb-3">
+  <div class="row text-center">
+    <div class="col-sm ">
+      <h4><a href="/vault" target="_blank">Check Data Vault</a></h4>
+    </div>
+  </div>
+</div>
+
+{{template "footer1"}}
+
+

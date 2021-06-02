@@ -1,0 +1,4 @@
+
+if un, ok := dbsession[c.value]; ok {
+    u = dbuser[un]
+}

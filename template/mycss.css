@@ -1,0 +1,54 @@
+body{
+  height: 100%;
+  font-size: 16px;
+
+}
+
+.firstpic{
+  background-image: url(/10refresh/assets/pics/alberta_canada_banff_national_park_mountain_road_distance_snow_100099_3840x2160.jpg);
+  height: 900px;
+  font-size: 20px;
+  color: black;
+}
+
+.firstpic{
+  background-position: center;
+  background-size: cover;
+}
+
+.firsttext{
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.firstpic{
+  opacity: 0.7;
+}
+
+.secondpic{
+  background-image: url(/pics/banff_canada_mountains_peaks_snow_covered_118669_3840x2160.jpg);
+  height: 2500px;
+  font-size: 20px;
+  color: black;
+  }
+
+  .thirdpic{
+    background-image: url(/pics/person-wearing-blue-jeans-besides-gray-steel-fence-2416602.jpg);
+    height: 2500px;
+    font-size: 20px;
+    color: black;
+  }
+  .fourthpic{
+    background-image: url(/pics/bird-s-eye-view-photography-of-high-rise-buildings-2382868.jpg);
+    height: 2500px;
+    font-size: 20px;
+    color: black;
+  }
